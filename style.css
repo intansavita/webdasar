@@ -1,3 +1,15 @@
+* {
+    margin: auto;
+}
+
+
+body {
+    background: url("./image/Picture222.jpg") top center;
+}
+
+
+
+
 .brown-sugar {
     color: brown; 
     
@@ -11,4 +23,44 @@
     margin-left: 100px;
     background-color: aqua;
     padding: 20px;
+}
+#box-head {
+    margin-top: 10px;
+    width: 900px;
+    background-color: #ffffff;
+    padding: 20px;
+    display: block;
+}
+
+#box-body {
+    margin-top: 10px;
+    width: 900px;
+    background-color: #ffffff;
+    padding: 5px;
+    height: 300px;
+}
+
+.box {
+    margin-top: 10px;
+    width: 350px;
+    background-color: blanchedalmond;
+    margin-right: 10px;
+    float: left;
+    padding: 30px;
+}
+
+<clear {
+    float: clear;
+}
+
+p::first-letter {
+    font-size: x-large;
+}
+
+div a {
+    color: black;
+}
+
+div a:hover {
+        color: red;
 }
